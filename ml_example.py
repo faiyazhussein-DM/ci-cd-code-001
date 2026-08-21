@@ -28,4 +28,10 @@ accuracy = accuracy_score(y_test, y_pred)
 # Print the accuracy
 print ('Accuracy: ', accuracy*100)
 
+# Calculate F1 score
+f1 = f1_score(y_test, y_pred, average='macro')
+
+# Print the F1 score
+print ('F1 score: ', f1)
+
 
